@@ -45,6 +45,7 @@ const Navbar = () => {
                         src="/assets/logo.png"
                         width={64}
                         height={64}
+                        alt=''
                     />
                 </LinkScroll>
                 <div className='mbile-menu block md:hidden'>

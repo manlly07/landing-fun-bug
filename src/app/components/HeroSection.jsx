@@ -63,18 +63,21 @@ const HeroSection = () => {
                             width={155}
                             height={155}
                             className='absolute top-1/3 z-10'
+                            alt=''
                         />
                         <Image
                             src='/assets/user.png'
                             width={457}
                             height={386}
                             className='z-20 block absolute'
+                            alt=''
                         />
                         <Image
                             src='/assets/dots.png'
                             width={84}
                             height={84}
                             className='z-30 block absolute right-0 bottom-1/4'
+                            alt=''
                         />
                     </motion.div>
                 </div>

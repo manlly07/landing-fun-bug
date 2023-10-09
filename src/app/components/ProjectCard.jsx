@@ -18,6 +18,7 @@ const ProjectCard = ({project}) => {
                 width={330}
                 height={200}
                 className='block border-b'
+                alt=''
             />
             <div className='p-2 break-words w-[330px]'>
                 {project.language}

@@ -31,6 +31,7 @@ const ContactSection = () => {
                             src="/assets/mail.png"
                             width={20}
                             height={18}
+                            alt=''
                         />
                         <Link
                             href={"mailto:funbug0909@gmail.com"}
@@ -42,6 +43,7 @@ const ContactSection = () => {
                             width={20}
                             height={18}
                             className='mix-blend-darken'
+                            alt=''
                         />
                         <Link
                             href={"https://www.facebook.com/profile.php?id=100092449950011"}

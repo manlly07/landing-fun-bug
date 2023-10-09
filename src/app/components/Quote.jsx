@@ -19,6 +19,7 @@ const Quote = () => {
                     width={24}
                     height={24}
                     className='absolute -top-3'
+                    alt=''
                 />
             </motion.div>
             <motion.div
@@ -33,6 +34,7 @@ const Quote = () => {
                     width={24}
                     height={24}
                     className='absolute -top-3 right-3'
+                    alt=''
                 />
             </motion.div>
         </section>

@@ -20,6 +20,7 @@ const MenuOverlay = ({ links }) => {
                 src="/assets/github.png"
                 width={48}
                 height={48}
+                alt=''
             />
         </Link>
         <Link
@@ -29,6 +30,7 @@ const MenuOverlay = ({ links }) => {
                 src="/assets/github.png"
                 width={48}
                 height={48}
+                alt=''
             />
         </Link>
         <Link
@@ -38,6 +40,7 @@ const MenuOverlay = ({ links }) => {
                 src="/assets/github.png"
                 width={48}
                 height={48}
+                alt=''
             />
         </Link>
       </li>
