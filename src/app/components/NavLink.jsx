@@ -1,4 +1,3 @@
-import Link from "next/link";
 import {Link as LinkScroll} from 'react-scroll'
 
 const NavLink = ({ href, title }) => {
