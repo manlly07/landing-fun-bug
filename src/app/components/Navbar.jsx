@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import NavLink from './Navlink'
+import Nav from './Nav'
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"
 import MenuOverlay from './MenuOverlay'
 import {Link as LinkScroll} from 'react-scroll'
@@ -69,7 +69,7 @@ const Navbar = () => {
                         {navLinks.map((link, index) => {
                             return (
                                 <li key={index}>
-                                    <NavLink
+                                    <Nav
                                         href={link.path}
                                         title={link.title}
                                     />

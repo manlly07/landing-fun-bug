@@ -1,5 +1,5 @@
 import React from 'react'
-import NavLink from './Navlink'
+import Nav from './Nav'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -9,7 +9,7 @@ const MenuOverlay = ({ links }) => {
     <ul className="flex flex-col py-4 items-center">
       {links.map((link, index) => (
         <li key={index}>
-          <NavLink href={link.path} title={link.title} />
+          <Nav href={link.path} title={link.title} />
         </li>
       ))}
       <li className='mt-4 flex gap-4'>

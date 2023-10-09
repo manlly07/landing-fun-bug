@@ -1,6 +1,5 @@
 'use client'
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 import { TypeAnimation } from "react-type-animation"
 import { motion, easeInOut } from 'framer-motion'
@@ -43,14 +42,14 @@ const HeroSection = () => {
                         className='text-secondary mb-4'>
                         Team Funbug: Innovation, expertise, collaboration - Empowering software development with quality.
                     </motion.p>
-                    <motion.Link
+                    <motion.a
                         variants={fadeIn('down', 0.4)}
                         initial='hidden'
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.6 }}
                         href="https://www.facebook.com/profile.php?id=100092449950011" target='blank' className='border-2 border-primary p-2 text-white block w-fit'>
                         Contact my team !!
-                    </motion.Link>
+                    </motion.a>
                 </div>
                 <div className='col-span-6'>
                     <motion.div

@@ -1,6 +1,6 @@
 import {Link as LinkScroll} from 'react-scroll'
 
-const NavLink = ({ href, title }) => {
+const Nav = ({ href, title }) => {
   console.log(href);
   return (
     <LinkScroll
@@ -17,4 +17,4 @@ const NavLink = ({ href, title }) => {
   );
 };
 
-export default NavLink;
+export default Nav;
