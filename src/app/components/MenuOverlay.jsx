@@ -12,7 +12,7 @@ const MenuOverlay = ({ links }) => {
           <Nav href={link.path} title={link.title} />
         </li>
       ))}
-      <li className='mt-4 flex gap-4'>
+      {/* <li className='mt-4 flex gap-4'>
         <Link
             href="/github.com"
         >
@@ -43,7 +43,7 @@ const MenuOverlay = ({ links }) => {
                 alt=''
             />
         </Link>
-      </li>
+      </li> */}
     </ul>
 </div>
   )
