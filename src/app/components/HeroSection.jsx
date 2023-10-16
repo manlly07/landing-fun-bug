@@ -67,7 +67,7 @@ const HeroSection = () => {
                         />
                         <Image
                             src='/assets/user.png'
-                            width={457}
+                            width={457} 
                             height={386}
                             className='z-20 block absolute'
                             alt=''
